@@ -33,7 +33,7 @@ node(){
     }
 }
 
-node('node') {
+node('master') {
     echo 'Unstash'
     unstash 'buildArtifacts'
     echo 'Artifacts copied'
